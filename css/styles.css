@@ -1,0 +1,60 @@
+body {
+  linear-gradient(50deg, #6e00ff 0, #bb00ff 100%) !important;
+  background-color: rgba(0, 0, 0, 0);
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-image: linear-gradient(50deg, rgb(74, 153, 255) 0px, rgba(250, 250, 250, 0.938) 100%);
+  background-size: auto;
+  background-origin: padding-box;
+  background-clip: border-box;
+}
+.card i {
+  background-color: aqua;
+}
+.carousel-item{
+  width: 100%;
+  
+} 
+.carousel-item img{
+  height: 700px;
+}
+
+.bg-primary:active{
+  background-color: aqua;
+  }
+
+.bg-primary:hover{
+  background-color: black;
+  }
+
+.bg-primary:focus{
+  background-color: red;
+  }
+.btn, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    }
+
+@media (max-width: 767px) {
+    .jumbotron {
+        padding-top: 3rem;
+        padding-bottom: 3rem;  
+        background-position: center;  
+        width: 100%;
+        
+}
+@media (max-width: 576px)
+    .carousel-item{
+      width: 100%;
+      height: 100%;
+    } 
+    .carousel-item img{
+      height: 350px;
+    }
+
+
+    
+    
