@@ -10,9 +10,7 @@ body {
   background-origin: padding-box;
   background-clip: border-box;
 }
-.card i {
-  background-color: aqua;
-}
+
 .carousel-item{
   width: 100%;
   
